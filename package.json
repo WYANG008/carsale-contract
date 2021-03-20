@@ -1,0 +1,25 @@
+{
+  "name": "carsale-contract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "truffle compile",
+    "deploy": "truffle migrate --network kovan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WYANG008/carsale-contract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WYANG008/carsale-contract/issues"
+  },
+  "homepage": "https://github.com/WYANG008/carsale-contract#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.4",
+    "truffle": "^5.2.5"
+  }
+}
